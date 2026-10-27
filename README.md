@@ -60,3 +60,10 @@ If you have cloned this project from GitHub, follow these steps to run it:
 Step 1: Install dependencies:
 ```bash
 npm install
+```
+
+Step 2: Create a `.env` file in the root directory and add the following variables:
+```env
+PORT=5000
+MONGO_URI=mongodb://127.0.0.1:27017/assignmentDB
+```
